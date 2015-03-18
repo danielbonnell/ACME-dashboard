@@ -12,9 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.datetimepicker
+//= require jquery.datetimepicker/init
 //= require foundation
 //= require_tree .
 
-@import "custom.js";
+@import "custom";
 
 $(function(){ $(document).foundation(); });
