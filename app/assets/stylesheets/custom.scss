@@ -1,13 +1,35 @@
+body {
+  font-family: "Lato", sans-serif!important;
+  background-color: #F3F3F3;
+}
+
 .white {
   background-color: #FFF!important;
 }
 
 .logo {
   font-size: 3em!important;
+  font-family: "Lato", sans-serif!important;
+  font-weight: 200;
 }
 
 .date-time {
   font-size: 2em!important;
+}
+
+.date-time > span {
+  font-size: .9em!important;
+  font-family: "Lato", sans-serif!important;
+  font-weight: 200;
+}
+
+span .success {
+  color: #5BC24C;
+  font-size: .9em!important;
+}
+
+.divider {
+  margin-right: 1em;
 }
 
 .side-buttons > li {
@@ -17,6 +39,29 @@
 .panel {
   background: #FFF!important;
   margin: 0em;
+}
+
+.btn-override {
+  background-color: #EEE!important;
+  font-size: 1em!important;
+  font-weight: 300!important;
+  text-align: left!important;
+}
+
+.btn-override:hover {
+  background-color: #5BC24C!important;
+  color: white;
+}
+
+h5 {
+  font-weight: 300!important;
+  font-size: 1.5em!important;
+}
+
+h6 {
+  font-weight: 300!important;
+  font-size: 1em!important;
+  text-align: left;
 }
 
 .scrollable {
@@ -59,9 +104,14 @@ button.tiny, .button.tiny {
   text-align: left;
 }
 
+.top-bar {
+  width: 90%!important;
+  left: 5%;
+}
+
 .select {
 	top: 0;
-	height: 2.3125em;
+	height: 2.6em;
 	margin-bottom: 1.25em;
 	margin-top: 0px;
 	padding: 0px;
@@ -90,6 +140,10 @@ button.tiny, .button.tiny {
 	font-weight: bold;
 }
 
+.styledSelect:hover {
+	background: #5BC24C!important;
+}
+
 .styledSelect:after {
 	content: "";
 	width: 0;
@@ -102,7 +156,7 @@ button.tiny, .button.tiny {
 }
 
 .styledSelect:active, .styledSelect.active {
-	background-color: #eee;
+	background-color: #5BC24C!important;
 }
 
 .options {
@@ -129,6 +183,6 @@ button.tiny, .button.tiny {
 }
 
 .options li:hover {
-	background-color: #39f;
+	background-color: #5BC24C!important;
 	color: white;
 }
