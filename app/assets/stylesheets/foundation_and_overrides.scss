@@ -79,9 +79,9 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-grid-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
 
-$row-width: 90%;
+$row-width: 95%;
 $total-columns: 12;
-$column-gutter: rem-calc(30);
+$column-gutter: rem-calc(10);
 
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -612,29 +612,29 @@ $secondary-button-bg-hover: $smoke;
 // $include-html-form-classes: $include-html-classes;
 
 // We use this to set the base for lots of form spacing and positioning styles
-// $form-spacing: rem-calc(16);
+$form-spacing: rem-calc(2);
 
 // We use these to style the labels in different ways
 // $form-label-pointer: pointer;
-// $form-label-font-size: rem-calc(14);
-// $form-label-font-weight: $font-weight-normal;
-// $form-label-line-height: 1.5;
+$form-label-font-size: rem-calc(16);
+$form-label-font-weight: $font-weight-bold;
+$form-label-line-height: 1.2;
 // $form-label-font-color: scale-color($black, $lightness: 30%);
 // $form-label-small-transform: capitalize;
 // $form-label-bottom-margin: 0;
 // $input-font-family: inherit;
 // $input-font-color: rgba(0,0,0,0.75);
-// $input-font-size: rem-calc(14);
-// $input-bg-color: $white;
-// $input-focus-bg-color: scale-color($white, $lightness: -2%);
+$input-font-size: rem-calc(16);
+$input-bg-color: $smoke;
+$input-focus-bg-color: $smoke;
 // $input-border-color: scale-color($white, $lightness: -20%);
-// $input-focus-border-color: scale-color($white, $lightness: -40%);
-// $input-border-style: solid;
-// $input-border-width: 1px;
+$input-focus-border-color: $gainsboro;
+$input-border-style: solid;
+$input-border-width: 0px;
 // $input-border-radius: $global-radius;
 // $input-disabled-bg: $gainsboro;
 // $input-disabled-cursor: $cursor-default-value;
-// $input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+$input-box-shadow: none;
 
 // We use these to style the fieldset border and spacing.
 // $fieldset-border-style: solid;
@@ -671,7 +671,7 @@ $secondary-button-bg-hover: $smoke;
 // $input-error-message-font-color-alt: $oil;
 
 // We use this to style the glowing effect of inputs when focused
-// $input-include-glowing-effect: true;
+$input-include-glowing-effect: false;
 // $glowing-effect-fade-time: 0.45s;
 // $glowing-effect-color: $input-focus-border-color;
 

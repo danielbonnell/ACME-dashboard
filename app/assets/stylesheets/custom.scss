@@ -102,11 +102,30 @@ button.tiny, .button.tiny {
 
 .left {
   text-align: left;
+  float: left;
+}
+
+.right {
+  float: right!important;
+  display: inline-block!important;
+}
+
+.small {
+  font-size: .7em!important;
+}
+
+.calendar {
+  font-size: 1em!important;
+  background: #CCC!important;
+}
+
+.calendar:hover {
+  background: #5BC24C!important;
 }
 
 .top-bar {
-  width: 90%!important;
-  left: 5%;
+  width: 95%!important;
+  left: 2.5%;
 }
 
 .select {
