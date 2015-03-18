@@ -15,8 +15,7 @@
 //= require jquery.datetimepicker
 //= require jquery.datetimepicker/init
 //= require foundation
+//= require custom
 //= require_tree .
-
-@import "custom";
 
 $(function(){ $(document).foundation(); });
