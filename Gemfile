@@ -27,3 +27,4 @@ end
 gem 'devise'
 gem 'foundation-rails'
 gem 'jquery-datetimepicker-rails'
+gem 'gon'
