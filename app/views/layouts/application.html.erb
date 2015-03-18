@@ -21,6 +21,8 @@
   <%= yield %>
 
   <%= javascript_include_tag 'application' %>
+  <%= javascript_include_tag "https://code.highcharts.com/highcharts.js" %>
+  <%= javascript_include_tag "charts" %>
   <%= javascript_tag do %>
     $(function(){
       $(document).foundation();
