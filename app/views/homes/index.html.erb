@@ -1,141 +1,20 @@
-<div class="row" data-equalizer>
+<div class="row">
   <br />
-  <aside class="large-3 columns">
-    <div class="panel" data-equalizer-watch>
-      <h5>Our School</h5>
-      <ul class="scrollable">
-        <li class="btn-override">Founders Memorial</li>
-        <li class="btn-override">Essex Elementary</li>
-        <li class="btn-override">Essex High School</li>
-        <li class="btn-override">Ridgemont High School</li>
-        <li class="btn-override">University of Okoboji</li>
-      </ul>
-    </div>
-
-    <div class="panel" data-equalizer-watch>
-      <h5>Our People</h5>
-      <ul class="list">
-        <li class="primary btn-override button tiny expand">Faculty / Staff</li>
-        <li class="primary btn-override button tiny expand">Students</li>
-        <li class="primary btn-override button tiny expand">Parents</li>
-        <li class="primary btn-override button tiny expand">Coaches</li>
-        <li class="primary btn-override button tiny expand">Volunteers</li>
-      </ul>
-    </div>
-
-    <div class="panel" data-equalizer-watch>
-      <h5>Tags</h5>
-      <ul class="list">
-        <li class="secondary button tiny expand">
-          <h6>Grade</h6>
-          <ul class="inline-list">
-            <li class="primary button tiny">9</li>
-            <li class="primary button tiny">10</li>
-            <li class="primary button tiny">11</li>
-            <li class="primary button tiny">12</li>
-          </ul>
-        </li>
-        <li class="secondary button tiny expand">
-          <h6>Subject</h6>
-          <select>
-            <option>Founders Memorial</option>
-            <option>Essex Elementary</option>
-            <option>Essex High School</option>
-            <option>Ridgemont High School</option>
-            <option>University of Okoboji</option>
-          </select>
-        </li>
-        <li class="secondary button tiny expand">
-          <h6>Gender</h6>
-          <form>
-            <select>
-              <option>Male</option>
-              <option>Female</option>
-              <option>Other*</option>
-            </select>
-          </form>
-        </li>
-      </ul>
-    </div>
-
-    <div class="panel" data-equalizer-watch>
-      <h5>My Groups</h5>
-      <ul class="list">
-        <li class="primary btn-override button tiny expand">ESL 9th Graders</li>
-        <li class="primary btn-override button tiny expand">Absentee Issues 9 - 12</li>
-        <li class="primary btn-override button tiny expand">10 - 12 Girls Math</li>
-      </ul>
-    </div>
-
-  </aside>
+  <%= render 'sidebar' %>
 
   <div class="large-9 columns" role="content">
     <article>
-      <div class="row" data-equalizer>
+      <div class="row">
         <div class="large-6 columns">
-          <div class="panel" data-equalizer-watch>
-            <h5><b>COMMUNITY</b></h5>
-            <div id="community" style="width:100%;"></div>
-          </div>
-          <div class="panel" data-equalizer-watch>
-            <h5 class="left"><b>LIVE</b>QUESTIONS</h5>
-            <span class="right small">Weekly Limit <span class="success label">5 Left out of 20</span></span>
-            <br><br>
-            <form>
-              <div class="row">
-                <div class="small-12">
-                  <div class="row">
-                    <div class="small-2 columns">
-                      <label for="right-label" class="right">Text</label>
-                    </div>
-                    <div class="small-10 columns">
-                      <textarea></textarea>
-                    </div>
-                  </div>
+          <%= render 'community' %>
 
-                  <div class="row">
-                    <div class="small-2 columns">
-                      <label for="right-label" class="right">Response Options</label>
-                    </div>
-                    <div class="small-10 columns">
-                      <input type="text">
-                      <input type="text">
-                      <input type="text">
-                      <input type="text">
-                      <input type="text">
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="small-2 columns">
-                      <label for="right-label" class="right">Schedule</label>
-                    </div>
-                    <div class="small-10 columns">
-                      <a href="#" class="secondary button tiny">SEND NOW</a>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="small-offset-2 small-10 columns">
-                      <span class="small left">SEND <br>LATER</span>
-                      <span class="seondary button tiny calendar datetimepicker"><i class="fa fa-calendar"></i></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
+          <%= render 'livequestions' %>
         </div>
+
         <div class="large-6 columns">
-          <div class="panel" data-equalizer-watch>
-            <h5><b>DISPLAY</b></h5>
-            Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.
-          </div>
-          <div class="panel" data-equalizer-watch>
-            <h5><b>RESULTS</b></h5>
-            <div id="results1" style="width:100%;"></div>
-            <div id="results2" style="width:100%;"></div>
-          </div>
+          <%= render 'display' %>
+
+          <%= render 'results' %>
         </div>
       </div>
     </article>

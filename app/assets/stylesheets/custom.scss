@@ -128,6 +128,43 @@ button.tiny, .button.tiny {
   left: 2.5%;
 }
 
+.sub-panel {
+  background-color: #EEE;
+}
+
+.sub-panel * {
+  line-height: 1.2em;
+}
+
+.dot {
+  list-style: none;
+  font-size: .8em;
+}
+
+.pink:before {
+  font-size: 1.5em;
+  content: "• ";
+  color: #EC6F5A;
+}
+
+.blue:before {
+  font-size: 1.5em;
+  content: "• ";
+  color: #27A2CF;
+}
+
+.green:before {
+  font-size: 1.5em;
+  content: "• ";
+  color: #5BC24C;
+}
+
+.grey:before {
+  font-size: 1.5em;
+  content: "• ";
+  color: #CCC;
+}
+
 .select {
 	top: 0;
 	height: 2.6em;

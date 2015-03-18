@@ -1,5 +1,16 @@
 $(function () {
     $('#community').highcharts({
+        chart: {
+            // Edit chart spacing
+            spacingBottom: 15,
+            spacingTop: 10,
+            spacingLeft: 10,
+            spacingRight: 10,
+
+            // Explicitly tell the width and height of a chart
+            width: null,
+            height: 300
+        },
         xAxis: {
             categories: ['2/14', '2/15', '2/16', '2/17', '2/18', '2/19', '2/20']
         },
@@ -35,6 +46,15 @@ $(function() {
     // Create the chart
     chart = new Highcharts.Chart({
         chart: {
+            // Edit chart spacing
+            spacingBottom: 0,
+            spacingTop: 0,
+            spacingLeft: 0,
+            spacingRight: 0,
+
+            // Explicitly tell the width and height of a chart
+            width: null,
+            height: 250,
             renderTo: 'results1',
             type: 'pie'
         },
@@ -79,6 +99,15 @@ $(function() {
     // Create the chart
     chart = new Highcharts.Chart({
         chart: {
+            // Edit chart spacing
+            spacingBottom: 0,
+            spacingTop: 0,
+            spacingLeft: 0,
+            spacingRight: 0,
+
+            // Explicitly tell the width and height of a chart
+            width: null,
+            height: 250,
             renderTo: 'results2',
             type: 'pie'
         },
