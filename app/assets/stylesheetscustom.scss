@@ -1,0 +1,134 @@
+.white {
+  background-color: #FFF!important;
+}
+
+.logo {
+  font-size: 3em!important;
+}
+
+.date-time {
+  font-size: 2em!important;
+}
+
+.side-buttons > li {
+  margin-right: -1em;
+}
+
+.panel {
+  background: #FFF!important;
+  margin: 0em;
+}
+
+.scrollable {
+  max-height: 6em;
+  overflow-y: scroll;
+  padding: 0.5em;
+  margin: 0;
+  border: 0;
+  background: #EEE;
+}
+
+.scrollable > li {
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+
+.list > li {
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+  font-size: 1em!important;
+}
+
+.list {
+  margin-left: 0;
+}
+
+.inline-list > li {
+  float: none!important;
+  display: inline-block!important;
+}
+
+button.tiny, .button.tiny {
+  margin-left: .25rem;
+  margin-right: .25rem;
+  padding-left: .8rem!important;
+  padding-right: .8rem!important;
+}
+
+.left {
+  text-align: left;
+}
+
+.select {
+	top: 0;
+	height: 2.3125em;
+	margin-bottom: 1.25em;
+	margin-top: 0px;
+	padding: 0px;
+	width: 100%;
+	line-height: 30px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-size: 0.875em;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	border: 1px solid #ccc;
+}
+
+.styledSelect {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: white;
+	background: -moz-linear-gradient(top, white 0%, #f3f3f3 100%);
+	background: -webkit-linear-gradient(top, white 0%, #f3f3f3 100%);
+	background: linear-gradient(to bottom, white 0%, #f3f3f3 100%);
+	padding: 0 10px;
+	font-weight: bold;
+}
+
+.styledSelect:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-color: black transparent transparent transparent;
+	position: absolute;
+	top: 9px;
+	right: 6px;
+}
+
+.styledSelect:active, .styledSelect.active {
+	background-color: #eee;
+}
+
+.options {
+	display: none;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	left: 0;
+	z-index: 999;
+	margin: 0 0;
+	padding: 0 0;
+	list-style: none;
+	border: 1px solid #ccc;
+	background-color: white;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.options li {
+  padding: 0 6px;
+  margin: 0 0;
+  padding: 0 10px;
+}
+
+.options li:hover {
+	background-color: #39f;
+	color: white;
+}

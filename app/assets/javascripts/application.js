@@ -15,4 +15,6 @@
 //= require foundation
 //= require_tree .
 
+@import "custom.js";
+
 $(function(){ $(document).foundation(); });
